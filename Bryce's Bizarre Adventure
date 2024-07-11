@@ -1,0 +1,5 @@
+answer = input("Hello, welcome to Bryce's Bizarre Adventure! Would you like to get started? (yes/no)")
+if answer.lower().strip() == "yes":
+  answer = input("You take a walk through the park. It's a beautiful day out, the birds are singing and the sun feels wonderful on your skin. Not too hot out, almost perfect weather. As you get further from your car, you start to lose track of time and next thing you know you've stumbled upon a part of the park you are unfamiliar with. Do you turn back and head towards your car or do you explore the unknown? Answer with either 'turn back' or 'explore'").lower().strip()
+  if answer == "explore":
+    print("Excellent choice! You wander into the forrest that is before you. The path is laid out and easy to follow, so why not? 
